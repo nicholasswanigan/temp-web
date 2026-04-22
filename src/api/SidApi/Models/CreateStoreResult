@@ -1,0 +1,9 @@
+namespace SidApi.Models;
+ 
+public class CreateStoreResult
+{
+    public bool Status { get; set; }
+    public int StatusCode { get; set; }
+    public int StoreId { get; set; }
+    public string Message { get; set; } = string.Empty;
+}

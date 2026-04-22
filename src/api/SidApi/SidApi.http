@@ -1,0 +1,49 @@
+@SidApi_HostAddress = http://localhost:5135
+
+POST {{SidApi_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "password"
+}
+
+###
+
+POST {{SidApi_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "edrep",
+  "password": "password",
+}
+
+###
+
+POST {{SidApi_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "accountant",
+  "password": "password",
+}
+
+###
+
+POST {{SidApi_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "repair",
+  "password": "password",
+}
+
+###
+
+POST {{SidApi_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "manager",
+  "password": "password",
+}

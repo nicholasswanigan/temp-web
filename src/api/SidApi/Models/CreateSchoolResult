@@ -1,0 +1,9 @@
+namespace SidApi.Models;
+
+public class CreateSchoolResult
+{
+    public bool Status { get; set; }
+    public int StatusCode { get; set; }
+    public int SchoolInfoId { get; set; }
+    public string Message { get; set; } = string.Empty;
+}
